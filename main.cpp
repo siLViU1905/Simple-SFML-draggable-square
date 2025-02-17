@@ -2,7 +2,7 @@
 
 int main()
 {
-	sf::RenderWindow window(sf::VideoMode({ 800, 600 }), "Silviu");
+	sf::RenderWindow window(sf::VideoMode({ 800, 600 }), "Draggable square");
 	window.setFramerateLimit(60);
 	window.setVerticalSyncEnabled(true);
 
