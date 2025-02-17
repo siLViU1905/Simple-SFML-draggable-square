@@ -18,8 +18,6 @@ int main()
 
 	sf::Color lightBlue(170, 180, 230), darkBlue(0, 0, 140);
 
-	sf::FloatRect rectBound = rect.getGlobalBounds();
-
 	std::optional<sf::Event> event;
 	while (window.isOpen())
 	{
